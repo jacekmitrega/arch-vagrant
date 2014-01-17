@@ -1,0 +1,3 @@
+---
+- name: refresh package list
+  pacman: name=pacman state=installed update_cache=yes
